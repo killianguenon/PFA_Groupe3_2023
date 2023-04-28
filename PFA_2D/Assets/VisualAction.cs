@@ -25,7 +25,7 @@ public class VisualAction : MonoBehaviour
         vector2Strength = new Vector2(strength, 0);
 
         function.LookAt2D(gameObject, targetButtonAction);
-        function.ScroolAndZoom2D(gameObject, targetButtonAction, vector2PositionStart);
+        function.ScroolAndScale2D(gameObject, targetButtonAction, vector2PositionStart);
 
         this.GetComponent<Rigidbody2D>().AddRelativeForce(vector2Strength);
     }

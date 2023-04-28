@@ -12,7 +12,7 @@ public class Function : MonoBehaviour
         origin.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
 
-    public void ScroolAndZoom2D(GameObject origin, GameObject target, Vector2 StartDistance)
+    public void ScroolAndScale2D(GameObject origin, GameObject target, Vector2 StartDistance)
     {
         Vector3 scaleTarget = target.gameObject.transform.localScale;
         Vector3 scaleOrigin = target.gameObject.transform.localScale;
