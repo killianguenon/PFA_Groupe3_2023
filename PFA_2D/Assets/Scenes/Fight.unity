@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 770130559}
   - component: {fileID: 770130558}
   - component: {fileID: 770130561}
+  - component: {fileID: 770130562}
   m_Layer: 5
   m_Name: ButtonGreen
   m_TagString: Untagged
@@ -697,6 +698,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9, y: 9}
   m_EdgeRadius: 0
+--- !u!114 &770130562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770130555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d350afebf8937a74da56d526fab36ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetVisualAction: {fileID: 1193239117}
+  function: {fileID: 0}
 --- !u!1 &808646626
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButtonAction: {fileID: 2143981395}
+  function: {fileID: 0}
 --- !u!61 &1039187412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1177,6 +1193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButtonAction: {fileID: 770130555}
+  function: {fileID: 0}
 --- !u!61 &1193239125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1432,7 +1449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 3cce8bc1d3b77e94e90d8ada8b8ef7a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1535,6 +1552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButtonAction: {fileID: 1580579616}
+  function: {fileID: 0}
 --- !u!1 &1303396799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1605,7 @@ GameObject:
   - component: {fileID: 1580579620}
   - component: {fileID: 1580579619}
   - component: {fileID: 1580579622}
+  - component: {fileID: 1580579623}
   m_Layer: 5
   m_Name: ButtonRed
   m_TagString: Untagged
@@ -1678,7 +1697,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 3cce8bc1d3b77e94e90d8ada8b8ef7a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1741,6 +1760,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9, y: 9}
   m_EdgeRadius: 0
+--- !u!114 &1580579623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580579616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d350afebf8937a74da56d526fab36ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetVisualAction: {fileID: 1269500063}
+  function: {fileID: 0}
 --- !u!1 &1640604877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1827,6 +1860,7 @@ GameObject:
   - component: {fileID: 2143981399}
   - component: {fileID: 2143981398}
   - component: {fileID: 2143981401}
+  - component: {fileID: 2143981402}
   m_Layer: 5
   m_Name: ButtonBlue
   m_TagString: Untagged
@@ -1981,3 +2015,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9, y: 9}
   m_EdgeRadius: 0
+--- !u!114 &2143981402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143981395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d350afebf8937a74da56d526fab36ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetVisualAction: {fileID: 1039187404}
+  function: {fileID: 0}
