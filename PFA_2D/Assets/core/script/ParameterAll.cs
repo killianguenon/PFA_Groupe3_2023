@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ParameterAll:MonoBehaviour
 {
     [Range(1f,50f)]
