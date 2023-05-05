@@ -494,8 +494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a71fd2e5fb87be741812224a0b3b21c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualActionStrength: 10
-  bpm: 160
+  visualActionStrength: 25
+  bpm: 170
+  timer: 30
 --- !u!4 &755447765
 Transform:
   m_ObjectHideFlags: 0

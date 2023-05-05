@@ -9,4 +9,7 @@ public class ParameterAll:MonoBehaviour
 
     [Range(50f, 1000f)]
     public ushort bpm; // parametre du bpm de la musique K.G
+
+    [Range(30f, 300f)]
+    public float timer; // parametre du compte a rebours
 }
