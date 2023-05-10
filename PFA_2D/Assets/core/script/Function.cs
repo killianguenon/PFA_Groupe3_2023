@@ -4,6 +4,35 @@ using UnityEngine;
 
 public class Function : MonoBehaviour
 {
+    bool isStart, isOut;
+    float timer;
+    ParameterAll parameterAll;
+    private void Start()
+    {
+        parameterAll = FindAnyObjectByType<ParameterAll>();
+        timer = parameterAll.timer;
+    }
+    private void Update()
+    {
+
+        /// Timer script
+        if (isStart)
+        {
+            if (timer > 0)
+            {
+                timer -= Time.deltaTime;
+                isOut = false;
+            }
+            else
+            {
+                timer = parameterAll.timer;
+                isOut = true;
+            }
+        }
+
+
+    }
+
     /// equivalent du lookAt mais pour la 2D    K.G
     /// permet d'effectuer une rotation de l'axe z de sorte que l'axe x pointe vers la position cible   K.G
     public void LookAt2D(GameObject origin, GameObject target)
@@ -29,5 +58,11 @@ public class Function : MonoBehaviour
         {
             origin.GetComponent<RectTransform>().localScale = scaleOrigin; // affecte le nouveau scale au RectTransform de l'origine    K.G
         }
+    }
+
+    public bool Timer()
+    {
+        isStart = true;
+        return isOut;
     }
 }
